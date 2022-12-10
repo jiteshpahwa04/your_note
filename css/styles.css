@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#top-container{
+    background-image: url(/images/background.webp);
+    padding-bottom: 15%;
+    text-align: center;
+}
+
+.nav-bar{
+    text-align: right;
+    padding-top: 1rem;
+}
+
+.nav-item{
+    padding: 1.2rem 0;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+}
+
+#title{
+    position: relative;
+    font-size: 7.5rem;
+    padding-top: 11%;
+    text-align: center;
+    font-family: 'Roboto Condensed', monospace;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.desc{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+}
+
+#mid-container{
+    text-align: right;
+    /* margin: 5rem;
+    margin-bottom: 50rem; */
+    padding: 55px;
+}
+
+.quads{
+    position: absolute;
+}
+
+#quad1{
+    left: 10rem;
+}
+#quad1-text{
+    background-color: #CBEDD5;
+}
+
+#quad2{
+    right: 10rem;
+}
+#quad2-text{
+    background-color: #A5F1E9;
+}
+
+#quad3{
+    top: 65rem;
+    left: 10rem;
+}
+#quad3-text{
+    background-color: #FFFBEB;
+}
+
+#quad4{
+    top: 65rem;
+    right: 10rem;
+}
+#quad4-text{
+    background-color: #FFE1E1;
+}
+
+.legends{
+    font-size: 1.5rem;
+}
+
+.text-area{
+    border-radius: 5%;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+.btm-container{
+    text-align: center;
+    position: relative;
+    top: 35rem;
+    background-color: #66BFBF;
+    margin-top: 70px;
+    padding: 40px;
+}
+
+.footer-link{
+    padding: 10px;
+}
+
+.name{
+    padding: 5px;
+    font-size: 12px;
+}
