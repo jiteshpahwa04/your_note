@@ -6,13 +6,14 @@ body{
 
 #top-container{
     background-image: url(/images/background.webp);
-    background-size: 100%;
-    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     margin-bottom: 10%;
+    padding: 20px;
 }
 
 .nav-bar{
@@ -21,9 +22,10 @@ body{
 }
 
 .nav-item{
-    padding: 1.2rem 0;
+    padding: 1.2rem 0.7rem;
     font-size: 1.2rem;
-    margin-right: 1.5rem;
+    position: relative;
+    right: 1.5rem;
 }
 
 #title{
@@ -89,13 +91,15 @@ a{
 
 .legends{
     font-size: 1.5rem;
+    cursor: default;
+    user-select: none;
 }
 
 .text-area{
     border-radius: 5%;
     margin-top: 1%;
     padding: 10px;
-    width: 20vw;
+    width: 25vw;
     height: 15vw;
 }
 
