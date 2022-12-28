@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -10,15 +11,17 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     margin-bottom: 10%;
-    padding: 20px;
 }
 
 .nav-bar{
     text-align: right;
-    padding-top: 1rem;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .nav-item{
@@ -31,9 +34,10 @@ body{
 #title{
     position: relative;
     font-size: 7.5rem;
-    padding-top: 11%;
     text-align: center;
     font-family: 'Roboto Condensed', monospace;
+    position: relative;
+    top: -10%;
 }
 
 a{
@@ -45,7 +49,15 @@ a{
     padding-top: 2rem;
     font-size: 1.5rem;
     width: 70%;
-    margin: auto;
+}
+
+.headings{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
 }
 
 #mid-container{
@@ -99,8 +111,9 @@ a{
     border-radius: 5%;
     margin-top: 1%;
     padding: 10px;
-    width: 25vw;
-    height: 15vw;
+    width: 35vw;
+    height: 35vh;
+    resize: none;
 }
 
 .btm-container{
